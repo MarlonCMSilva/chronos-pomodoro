@@ -5,7 +5,7 @@ export function Footer() {
   return (
     <footer className={styles.footer}>
       <RouterLink href='/about-pomodoro/'>
-        Entada Como Funciona a tecnica Pormodor
+        Entenda como funfiona a Técnica Pomodoro
       </RouterLink>
       <RouterLink href='/'>
         Chronos Pomodoro &copy; {new Date().getFullYear()} - Feito com 💚
