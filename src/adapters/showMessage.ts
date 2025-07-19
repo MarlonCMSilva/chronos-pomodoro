@@ -10,7 +10,7 @@ export const showMessage = {
   dismiss: () => toast.dismiss(),
   confirm: (_data: string, onClosing: (confirmation: boolean) => void) =>
     toast(Dialog, {
-      data: 'tem certeza',
+      data: 'Deseja Apagar o Historico ?',
       onClose: confirmation => {
         if (confirmation) return onClosing(true);
         return onClosing(false);
