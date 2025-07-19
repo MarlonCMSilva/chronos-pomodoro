@@ -8,7 +8,7 @@ export const showMessage = {
   warning: (msg: string) => toast.warning(msg),
   info: (msg: string) => toast.info(msg),
   dismiss: () => toast.dismiss(),
-  confirm: (data: string, onClosing: (confirmation: boolean) => void) =>
+  confirm: (_data: string, onClosing: (confirmation: boolean) => void) =>
     toast(Dialog, {
       data: 'tem certeza',
       onClose: confirmation => {
