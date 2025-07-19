@@ -1,0 +1,27 @@
+{
+  "name": "Chronos Pomodoro",
+  "short_name": "Chronos",
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#f9f9f9",
+  "display": "standalone",
+  "display_override": ["windows-controls-overlay", "minimal-ui"],
+  "orientation": "portrait",
+  "start_url": "/",
+  "scope": "/",
+  "description": "Gerencie seus ciclos de Pomodoro com o Chronos Pomodoro. Timer completo, personalizável e moderno para produtividade máxima.",
+  "id": "/"
+}
