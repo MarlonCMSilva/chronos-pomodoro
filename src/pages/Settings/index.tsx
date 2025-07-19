@@ -71,7 +71,8 @@ export function Settings() {
       </Container>
       <Container>
         <p style={{ textAlign: 'center' }}>
-          Modifique as Configurações para tempo de Foco, descanso Longo
+          Modifique as configurações para tempo de Foco, descanso curto e
+          descanso Longo
         </p>
       </Container>
       <Container>
